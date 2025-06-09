@@ -1,11 +1,11 @@
 [Setup]
 AppId=B9F6E402-0CAE-4045-BDE6-14BD6C39C4EA
 AppVersion=1.12.0+25
-AppName=opentune-Desktop
+AppName=opentune
 AppPublisher=Arturo254
-AppPublisherURL=https://github.com/Arturo254/opentune-Desktop
-AppSupportURL=https://github.com/Arturo254/opentune-Desktop
-AppUpdatesURL=https://github.com/Arturo254/opentune-Desktop
+AppPublisherURL=https://github.com/Arturo254/OpenTune-Desktop
+AppSupportURL=https://github.com/Arturo254/OpenTune-Desktop
+AppUpdatesURL=https://github.com/Arturo254/OpenTune-Desktop
 DefaultDirName={autopf}\opentune
 DisableProgramGroupPage=yes
 OutputDir=.
@@ -31,8 +31,8 @@ Source: "..\..\build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ign
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{autoprograms}\Harmony Music"; Filename: "{app}\opentune.exe"
-Name: "{autodesktop}\Harmony Music"; Filename: "{app}\opentune.exe"; Tasks: desktopicon
+Name: "{autoprograms}\opentune"; Filename: "{app}\opentune.exe"
+Name: "{autodesktop}\opentune"; Filename: "{app}\opentune.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\opentune.exe"; Description: "{cm:LaunchProgram,{#StringChange('Harmony Music', '&', '&&')}}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\opentune.exe"; Description: "{cm:LaunchProgram,{#StringChange('opentune', '&', '&&')}}"; Flags: nowait postinstall skipifsilent
