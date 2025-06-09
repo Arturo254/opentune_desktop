@@ -1,5 +1,5 @@
 display_name: Harmony Music
-package_name: opentune_desktop
+package_name: opentune
 maintainer:
   name: anandnet
 priority: optional

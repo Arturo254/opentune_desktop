@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/screens/Settings/settings_screen_controller.dart';
-import 'package:opentune_desktop/ui/widgets/loader.dart';
+import 'package:opentune/ui/screens/Settings/settings_screen_controller.dart';
+import 'package:opentune/ui/widgets/loader.dart';
 
 import '../../services/permission_service.dart';
 import 'common_dialog_widget.dart';

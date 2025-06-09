@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/player/player_controller.dart';
+import 'package:opentune/ui/player/player_controller.dart';
 
 import '../../widgets/loader.dart';
 

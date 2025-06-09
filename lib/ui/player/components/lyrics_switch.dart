@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/utils/theme_controller.dart';
+import 'package:opentune/ui/utils/theme_controller.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 
 import '../player_controller.dart';

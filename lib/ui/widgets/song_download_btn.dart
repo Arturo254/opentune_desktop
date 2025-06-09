@@ -1,8 +1,8 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/services/downloader.dart';
-import 'package:opentune_desktop/ui/player/player_controller.dart';
+import 'package:opentune/services/downloader.dart';
+import 'package:opentune/ui/player/player_controller.dart';
 import 'package:hive/hive.dart';
 
 import 'loader.dart';

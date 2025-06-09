@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.anandnet" "\0"
-            VALUE "FileDescription", "opentune_desktop" "\0"
+            VALUE "FileDescription", "opentune" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "opentune_desktop" "\0"
+            VALUE "InternalName", "opentune" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.anandnet. All rights reserved." "\0"
-            VALUE "OriginalFilename", "opentune_desktop.exe" "\0"
-            VALUE "ProductName", "opentune_desktop" "\0"
+            VALUE "OriginalFilename", "opentune.exe" "\0"
+            VALUE "ProductName", "opentune" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

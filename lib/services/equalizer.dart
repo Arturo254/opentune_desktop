@@ -1,4 +1,4 @@
-import 'package:opentune_desktop/native_bindings/andrid_utils.dart';
+import 'package:opentune/native_bindings/andrid_utils.dart';
 import 'package:jni/jni.dart';
 
 class EqualizerService {

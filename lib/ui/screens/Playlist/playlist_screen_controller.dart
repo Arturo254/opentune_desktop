@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:audio_service/audio_service.dart' show MediaItem;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/models/thumbnail.dart';
-import 'package:opentune_desktop/services/permission_service.dart';
-import 'package:opentune_desktop/ui/screens/Settings/settings_screen_controller.dart';
-import 'package:opentune_desktop/ui/widgets/snackbar.dart';
-import 'package:opentune_desktop/utils/helper.dart';
+import 'package:opentune/models/thumbnail.dart';
+import 'package:opentune/services/permission_service.dart';
+import 'package:opentune/ui/screens/Settings/settings_screen_controller.dart';
+import 'package:opentune/ui/widgets/snackbar.dart';
+import 'package:opentune/utils/helper.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart' as path_provider;
 
@@ -397,7 +397,7 @@ class PlaylistScreenController extends PlaylistAlbumScreenControllerBase
   // Helper method to get the appropriate export directory for each platform
   Future<Directory> _getExportDirectory() async {
     Directory directory;
-    const appFolderName = "opentune_desktop";
+    const appFolderName = "opentune";
 
     try {
       if (Platform.isAndroid) {
@@ -439,11 +439,11 @@ class PlaylistScreenController extends PlaylistAlbumScreenControllerBase
   // Helper method to get a user-friendly location message
   String _getLocationMessage(String path) {
     if (Platform.isAndroid) {
-      return "Downloads/opentune_desktop";
+      return "Downloads/opentune";
     } else if (Platform.isIOS) {
-      return "Files App > opentune_desktop";
+      return "Files App > opentune";
     } else if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-      return "Downloads/opentune_desktop";
+      return "Downloads/opentune";
     } else {
       return path.split('/').last;
     }

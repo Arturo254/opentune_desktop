@@ -62,8 +62,8 @@ class HomeScreen extends StatelessWidget {
                                 Get.toNamed(ScreenNavigationSetup.searchScreen,
                                     id: ScreenNavigationSetup.id);
                               }
-                              // file:///data/user/0/com.example.opentune_desktop/cache/libCachedImageData/
-                              //file:///data/user/0/com.example.opentune_desktop/cache/just_audio_cache/
+                              // file:///data/user/0/com.example.opentune/cache/libCachedImageData/
+                              //file:///data/user/0/com.example.opentune/cache/just_audio_cache/
                             },
                             child: Icon(homeScreenController.tabIndex.value == 2
                                 ? Icons.add

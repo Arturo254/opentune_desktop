@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:audio_service/audio_service.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/player/player_controller.dart';
-import 'package:opentune_desktop/ui/screens/Settings/settings_screen_controller.dart';
+import 'package:opentune/ui/player/player_controller.dart';
+import 'package:opentune/ui/screens/Settings/settings_screen_controller.dart';
 import 'package:tray_manager/tray_manager.dart';
 import 'package:window_manager/window_manager.dart';
 

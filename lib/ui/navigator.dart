@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/models/album.dart';
-import 'package:opentune_desktop/models/artist.dart';
+import 'package:opentune/models/album.dart';
+import 'package:opentune/models/artist.dart';
 
-import 'package:opentune_desktop/ui/screens/Artists/artist_screen.dart';
-import 'package:opentune_desktop/ui/screens/Home/home_screen.dart';
+import 'package:opentune/ui/screens/Artists/artist_screen.dart';
+import 'package:opentune/ui/screens/Home/home_screen.dart';
 
 import 'screens/Album/album_screen.dart';
 import 'screens/Playlist/playlist_screen.dart';

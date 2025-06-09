@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/screens/Home/home_screen_controller.dart';
+import 'package:opentune/ui/screens/Home/home_screen_controller.dart';
 import 'package:sidebar_with_animation/animated_side_bar.dart';
 
 class SideNavBar extends StatelessWidget {

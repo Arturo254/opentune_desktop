@@ -1,4 +1,4 @@
-import 'package:opentune_desktop/services/stream_service.dart' show Audio;
+import 'package:opentune/services/stream_service.dart' show Audio;
 
 class HMStreamingData {
   final bool playable;

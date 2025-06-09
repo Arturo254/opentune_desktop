@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/screens/Settings/settings_screen_controller.dart';
+import 'package:opentune/ui/screens/Settings/settings_screen_controller.dart';
 
 import '../../../utils/helper.dart';
 import '../Home/home_screen_controller.dart';

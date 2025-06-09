@@ -1,8 +1,8 @@
 import 'package:buttons_tabbar/buttons_tabbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/ui/widgets/loader.dart';
-import 'package:opentune_desktop/ui/widgets/search_related_widgets.dart';
+import 'package:opentune/ui/widgets/loader.dart';
+import 'package:opentune/ui/widgets/search_related_widgets.dart';
 
 import '../../navigator.dart';
 import '../../widgets/separate_tab_item_widget.dart';

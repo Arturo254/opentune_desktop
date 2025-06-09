@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "opentune_desktop",
+            "name": "opentune",
             "request": "launch",
             "type": "dart",
             "toolArgs": [
@@ -13,7 +13,7 @@
             ],
         },
         {
-            "name": "opentune_desktop (profile mode)",
+            "name": "opentune (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
@@ -22,7 +22,7 @@
             ],
         },
         {
-            "name": "opentune_desktop (release mode)",
+            "name": "opentune (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",

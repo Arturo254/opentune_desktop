@@ -2,9 +2,9 @@ import 'package:audio_service/audio_service.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:opentune_desktop/models/playling_from.dart';
-import 'package:opentune_desktop/models/thumbnail.dart';
-import 'package:opentune_desktop/ui/widgets/playlist_album_scroll_behaviour.dart';
+import 'package:opentune/models/playling_from.dart';
+import 'package:opentune/models/thumbnail.dart';
+import 'package:opentune/ui/widgets/playlist_album_scroll_behaviour.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:widget_marquee/widget_marquee.dart';
 
